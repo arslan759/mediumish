@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+
+body{
+    padding: 0px 25px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#site-info *{
+    line-height: 10px;
+}
+
+#site-info{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.heading{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    border-bottom: 2px solid gray;
+}
+
+.border{
+    border-bottom: 2px solid #C6C5B9;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+ul li{
+    font-size: 20px;
+    margin: 5px;
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #C6C5B9;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+.align-center{
+    width: 80%;
+    margin: auto;
+}
+
+nav{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#featured-card , #stories-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    border: 1px solid #C6C5B9;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 5px 0px rgba(227,211,211,0.75);
+    cursor: pointer;
+}
+
+#featured-card .card{
+    display: flex;
+    height: 250px;
+    width: 48%;
+    margin: 10px 0px;
+}
+
+#featured-card .card .card-photo{
+    width: 40%;
+    object-fit: cover;
+}
+
+#featured-card .card .card-info{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#featured-card .card .card-info .card-meta-info{
+    height: 70%;
+}
+
+#featured-card .card .card-info .card-author-info{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 5px;
+    justify-content: space-between;
+}
+
+#featured-card .card-author-info div{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 0px;
+}
+
+#featured-card .card-author-info img{
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#featured-card .card-author-info div h6 , #featured-card .card-author-info div p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 15px;
+}
+
+.card-author-info div p{
+    font-size: 10px;
+}
+
+#featured-card .card .card-info .card-author-info div:last-child{
+    float: right;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+#featured-card .card-author-info div:last-child{
+    border-top: auto;
+    border-bottom: 0px;
+    line-height: 0px;
+}
+
+#stories-card .card{
+    height: auto;
+    width: 32%;
+    margin: 10px 0px;
+}
+
+#stories-card .card .card-photo{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+#stories-card .card .card-info{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#stories-card .card .card-info .card-meta-info{
+    height: 70%;
+}
+
+#stories-card .card .card-info .card-author-info{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 5px;
+}
+
+#stories-card .card .card-info .card-author-info div:last-child{
+    float: right;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+#stories-card .card-author-info div{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 0px;
+}
+
+#stories-card .card-author-info img{
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#stories-card .card-author-info div h6 , #stories-card .card-author-info div p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 15px;
+}
+
+#stories-card .card-author-info div:last-child{
+    border-top: auto;
+    border-bottom: 0px;
+    line-height: 0px;
+}
+
+#stories{
+    margin-top: 30px;
+}
+
+
